@@ -36,7 +36,7 @@ font-family: 'Open Sans', sans-serif;;
 
 
 #button1 {
-    background-color: blue;
+    background-color: #1a73e8;
     color: white;
     height: 35px;
     border: none;
@@ -45,7 +45,7 @@ font-family: 'Open Sans', sans-serif;;
 
 button {
     border-radius: 10%;
-    background-color: rgb(247, 247, 247);
+    background-color: #f8f9fa;
     border: none;
     height: 35px;
     width: 10em
@@ -62,11 +62,17 @@ h1 {
 }
 
 h1 {
-    padding: 100px 0px 100px 0px;
+    padding: 120px 0px 120px 0px;
     font-weight: 500;
 }
 a{
    text-decoration:none;
+}
+
+#googlesearch {
+    button:hover {
+        border-color: black;
+    }
 }
 
 a:hover {
@@ -79,7 +85,7 @@ a:hover {
 
 #query {
     width: 600px;
-    height: 40px;
+    height: 45px;
 }
 
 #ul_footer li{
@@ -88,11 +94,13 @@ a:hover {
 
 #ul_footer {
     position: absolute;
+    background-color: #f2f2f2;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-weight: 800;
+    font-size: xx-large;
     bottom: 0;
     width: 100%;
     font-size: 13px;
     height: 2.5rem;     
-    background-color: rgb(247, 247, 247);       /* Footer height */
   }
