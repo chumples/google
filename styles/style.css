@@ -86,6 +86,11 @@ a:hover {
 #query {
     width: 600px;
     height: 45px;
+    border-top-color: lightgray;
+    border-right-color: lightgray;
+    border-bottom-color: lightgray;
+    border-left-color: lightgray;
+    border
 }
 
 #ul_footer li{
